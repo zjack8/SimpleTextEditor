@@ -17,8 +17,7 @@ public class App extends Application {
 	}
 	
 	@Override
-	public void start(Stage stage) throws IOException 
-	{
+	public void start(Stage stage) throws IOException {
 		// Create the FXMLLoader 
 		FXMLLoader loader = new FXMLLoader();
 		// Path to the FXML File
