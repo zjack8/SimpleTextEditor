@@ -1,0 +1,54 @@
+package assignment;
+
+import javafx.scene.control.MenuItem;
+import javafx.fxml.FXML;
+
+public class EditorController{
+
+	@FXML
+	private MenuItem Print;
+	
+	@FXML
+	private MenuItem Save;
+	
+	@FXML
+	private MenuItem Cut;
+	
+	@FXML
+	private MenuItem Copy;
+	
+	@FXML
+	private MenuItem Paste;
+	
+	@FXML
+	private MenuItem Delete;
+	
+	@FXML
+	private MenuItem SelectAll;
+	
+	@FXML
+	private MenuItem UnselectAll;
+	
+	@FXML
+	private MenuItem Find;
+	
+	@FXML
+	private MenuItem Replace;
+	
+	@FXML
+	private MenuItem About;
+	
+	// Add a public no-args constructor
+    public EditorController() {
+    }
+
+    @FXML
+    private void initialize() {
+    }
+    
+    @FXML
+    private void New() {
+    	System.out.println("New Attempted");
+    }
+	
+}
