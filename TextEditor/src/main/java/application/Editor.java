@@ -10,7 +10,7 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 
-public class App extends Application {
+public class Editor extends Application {
 
 	public static void main(String[] args) {
 		Application.launch(args);
@@ -34,6 +34,7 @@ public class App extends Application {
 		stage.setScene(scene);
 		// Set the Title to the Stage
 		stage.setTitle("Text Editor");
+        	stage.getIcons().add(new Image("file:src/main/resources/image/t.jpg"));
 		// Display the Stage
 		stage.show();
 	}
