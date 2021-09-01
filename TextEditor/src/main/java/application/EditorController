@@ -5,6 +5,8 @@ import javafx.fxml.FXML;
 
 public class EditorController{
 
+	private String textToCopy;
+	
 	@FXML
 	private MenuItem Print;
 	
@@ -72,6 +74,11 @@ public class EditorController{
         Stage stageToClose = (Stage) TA.getScene().getWindow();
         stageToClose.close();
 
+    }
+    
+    @FXML
+    private void Copy() {
+        textToCopy = TA.getSelectedText();
     }
 	
 }
