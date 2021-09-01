@@ -102,7 +102,8 @@ public class EditorController{
     
     @FXML
     private void Paste() {
-    	//TODO feature-9
+        int caretPosition = TA.getCaretPosition();
+        TA.insertText(caretPosition, textToCopy);
     }
     
     @FXML
