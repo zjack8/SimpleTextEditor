@@ -1,9 +1,14 @@
 package application;
 
 import javafx.scene.control.MenuItem;
+import javafx.scene.control.TextArea;
 import javafx.fxml.FXML;
+import javafx.stage.Stage;
 
 public class EditorController{
+	
+	@FXML
+	private TextArea TA;
 
 	@FXML
 	private MenuItem Print;
@@ -38,6 +43,9 @@ public class EditorController{
 	@FXML
 	private MenuItem About;
 	
+	@FXML
+	private MenuItem Exit;
+	
 	// Add a public no-args constructor
     public EditorController() {
     }
@@ -58,7 +66,8 @@ public class EditorController{
     
     @FXML
     private void Exit() {
-    	//TODO feature-3
+    	Stage stageToClose = (Stage) TA.getScene().getWindow();
+    	stageToClose.close();
     }
     
     @FXML
