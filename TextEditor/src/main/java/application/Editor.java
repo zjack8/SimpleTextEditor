@@ -34,7 +34,7 @@ public class Editor extends Application {
 		stage.setScene(scene);
 		// Set the Title to the Stage
 		stage.setTitle("Text Editor");
-        	stage.getIcons().add(new Image("file:src/main/resources/image/t.jpg"));
+        stage.getIcons().add(new Image("file:src/main/resources/image/t.jpg"));
 		// Display the Stage
 		stage.show();
 	}
