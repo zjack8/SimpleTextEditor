@@ -72,7 +72,27 @@ public class EditorController{
     
     @FXML
     private void TD() {
-    	//TODO feature-4
+    	// Create the FXMLLoader 
+	FXMLLoader loader = new FXMLLoader();
+	// Path to the FXML File
+	String fxmlDocPath = "src/main/resources/fxml/TD.fxml";
+	FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+	
+	// Create the Pane and all Details
+	VBox root = new VBox();
+	root = (VBox) loader.load(fxmlStream);	
+	
+	// Create the Scene
+	Scene scene = new Scene(root);
+	// Set the Scene to the Stage
+	Stage stage = new Stage();
+	stage.setScene(scene);
+	// Set the Title to the Stage
+	stage.setTitle("Time and Date");
+	stage.setResizable(false);
+        stage.getIcons().add(new Image("file:src/main/resources/image/t.jpg"));
+	// Display the Stage
+	stage.show();
     }
     
     @FXML
