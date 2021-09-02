@@ -80,5 +80,17 @@ public class EditorController{
     private void Copy() {
         textToCopy = TA.getSelectedText();
     }
+    
+    @FXML
+    private void Cut() {
+        textToCopy = TA.getSelectedText();
+        TA.setText(TA.getText().replace(TA.getSelectedText(),""));
+    }
+    
+    @FXML
+    private void Paste() {
+        int caretPosition = TA.getCaretPosition();
+        TA.insertText(caretPosition, textToCopy);
+    }
 	
 }
