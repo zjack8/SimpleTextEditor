@@ -55,8 +55,30 @@ public class EditorController{
     }
     
     @FXML
-    private void New() {
-    	//TODO feature-1
+    private void New() throws IOException {
+    	// Create the FXMLLoader 
+        FXMLLoader loader = new FXMLLoader();
+        // Path to the FXML File
+        String fxmlDocPath = "src/main/resources/fxml/TextEditorLayout.fxml";
+        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+
+        // Create the Pane and all Details
+        VBox root = new VBox();
+        root = (VBox) loader.load(fxmlStream);
+
+        // Create the Scene
+        Scene scene = new Scene(root);
+        // Set the Scene to the Stage
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        // Set the Title to the Stage
+        stage.setTitle("Text Editor");
+        stage.getIcons().add(new Image("file:src/main/resources/image/t.jpg"));
+        // Display the Stage
+        stage.show();
+
+        Stage stageToClose = (Stage) TA.getScene().getWindow();
+        stageToClose.close();
     }
 	
     @FXML
@@ -71,7 +93,7 @@ public class EditorController{
     }
     
     @FXML
-    private void TD() {
+    private void TD() throws IOException {
     	// Create the FXMLLoader 
 	FXMLLoader loader = new FXMLLoader();
 	// Path to the FXML File
