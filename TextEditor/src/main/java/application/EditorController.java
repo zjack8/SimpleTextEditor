@@ -123,7 +123,7 @@ public class EditorController {
     
     @FXML
     private void SelectAll() {
-    	//TODO feature-6
+    	TA.selectAll();
     }
     
     
