@@ -145,8 +145,55 @@ public class EditorController {
     }
     
     @FXML
-    private void Save() {
-    	//TODO feature-10
+    private void Savetxt() throws IOException {
+    	text = TA.getText().toString();
+	// Create the FXMLLoader 
+	FXMLLoader loader = new FXMLLoader();
+	// Path to the FXML File
+	String fxmlDocPath = "src/main/resources/fxml/savetxt.fxml";
+	FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+	
+	// Create the Pane and all Details
+	VBox root = new VBox();
+	root = (VBox) loader.load(fxmlStream);	
+	
+	// Create the Scene
+	Scene scene = new Scene(root);
+	// Set the Scene to the Stage
+	Stage stage = new Stage();
+	stage.setScene(scene);
+	// Set the Title to the Stage
+	stage.setTitle("Save as .txt");
+	stage.setResizable(false);
+        stage.getIcons().add(new Image("file:src/main/resources/image/t.jpg"));
+	// Display the Stage
+	stage.show();
+    }
+    
+    @FXML
+    private void Savepdf() throws IOException {
+    	text = TA.getText().toString();
+	// Create the FXMLLoader 
+	FXMLLoader loader = new FXMLLoader();
+	// Path to the FXML File
+	String fxmlDocPath = "src/main/resources/fxml/savepdf.fxml";
+	FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+	
+	// Create the Pane and all Details
+	VBox root = new VBox();
+	root = (VBox) loader.load(fxmlStream);	
+	
+	// Create the Scene
+	Scene scene = new Scene(root);
+	// Set the Scene to the Stage
+	Stage stage = new Stage();
+	stage.setScene(scene);
+	// Set the Title to the Stage
+	stage.setTitle("Save as .pdf");
+	stage.setResizable(false);
+        stage.getIcons().add(new Image("file:src/main/resources/image/t.jpg"));
+	// Display the Stage
+	stage.show();
     }
     
     @FXML
