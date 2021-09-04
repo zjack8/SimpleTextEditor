@@ -1,48 +1,47 @@
 package application;
 
+import javafx.scene.Scene;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextArea;
+import javafx.scene.image.Image;
+import javafx.scene.layout.VBox;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 
-public class EditorController{
+public class EditorController {
+	
+	private String textToCopy;
+	public static String text;
 	
 	@FXML
 	private TextArea TA;
-
 	@FXML
 	private MenuItem Print;
-	
 	@FXML
 	private MenuItem Save;
-	
 	@FXML
 	private MenuItem Cut;
-	
 	@FXML
 	private MenuItem Copy;
-	
 	@FXML
 	private MenuItem Paste;
-	
 	@FXML
 	private MenuItem Delete;
-	
 	@FXML
 	private MenuItem SelectAll;
-	
 	@FXML
 	private MenuItem UnselectAll;
-	
 	@FXML
 	private MenuItem Find;
-	
 	@FXML
 	private MenuItem Replace;
-	
 	@FXML
 	private MenuItem About;
-	
 	@FXML
 	private MenuItem Exit;
 	
@@ -94,7 +93,7 @@ public class EditorController{
     
     @FXML
     private void TD() throws IOException {
-    	// Create the FXMLLoader 
+	// Create the FXMLLoader 
 	FXMLLoader loader = new FXMLLoader();
 	// Path to the FXML File
 	String fxmlDocPath = "src/main/resources/fxml/TD.fxml";
@@ -127,19 +126,16 @@ public class EditorController{
     	//TODO feature-6
     }
     
-    @FXML
-    private void UnselectAll() {
-    	//TODO feature-6
-    }
     
     @FXML
     private void Cut() {
-    	//TODO feature-7
+        textToCopy = TA.getSelectedText();
+        TA.setText(TA.getText().replace(TA.getSelectedText(),""));
     }
     
     @FXML
     private void Copy() {
-    	//TODO feature-8
+        textToCopy = TA.getSelectedText();
     }
     
     @FXML
@@ -158,8 +154,10 @@ public class EditorController{
     	//TODO feature-11
     }
     
+    
     @FXML
     private void Print() {
     	//TODO feature-12
     }
+    
 }
