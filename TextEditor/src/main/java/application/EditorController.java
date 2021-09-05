@@ -51,10 +51,15 @@ public class EditorController {
 
     @FXML
     private void initialize() {
+	// Sets intial text to "text"
+    	// This is for the Open function
+    	TA.setText(text);
     }
     
     @FXML
     private void New() throws IOException {
+	// Opens New Window
+    	text = "";
     	// Create the FXMLLoader 
         FXMLLoader loader = new FXMLLoader();
         // Path to the FXML File
@@ -81,8 +86,32 @@ public class EditorController {
     }
 	
     @FXML
-    private void Open() {
-    	//TODO feature-2
+    private void Open() throws IOException {
+    	// Opens Open Window
+	// Create the FXMLLoader 
+	FXMLLoader loader = new FXMLLoader();
+	// Path to the FXML File
+	String fxmlDocPath = "src/main/resources/fxml/open.fxml";
+	FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+	
+	// Create the Pane and all Details
+	VBox root = new VBox();
+	root = (VBox) loader.load(fxmlStream);	
+	
+	// Create the Scene
+	Scene scene = new Scene(root);
+	// Set the Scene to the Stage
+	Stage stage = new Stage();
+	stage.setScene(scene);
+	// Set the Title to the Stage
+	stage.setTitle("Open file");
+	stage.setResizable(false);
+        stage.getIcons().add(new Image("file:src/main/resources/image/t.jpg"));
+	// Display the Stage
+	stage.show();
+	//Removes old window
+	Stage stageToClose = (Stage) TA.getScene().getWindow();
+        stageToClose.close();
     }
     
     @FXML
