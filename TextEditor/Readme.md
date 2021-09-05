@@ -21,3 +21,8 @@ the second furnishes the applications with logic. Editor contains the former and
 # Commit IDs
 Daniel Tyler -- a30eb4f, 5b4463e, d0acc07 <br />
 Mathew Veale -- 7535285, 318aca3, 0198d8e
+
+# Running
+Write the following command lines in the Text Editor directory (The one with pom.xml): <br />
+- mvn compile
+- mvn exec:java -Dexec.mainClass="application.Editor"
