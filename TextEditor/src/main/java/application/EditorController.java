@@ -14,12 +14,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 
 public class EditorController {
-
+	
 	private String textToCopy;
 	public static String text;
-
+	
 	@FXML
-	public TextArea TA;
+	private TextArea TA;
 	@FXML
 	private MenuItem Print;
 	@FXML
@@ -44,7 +44,7 @@ public class EditorController {
 	private MenuItem About;
 	@FXML
 	private MenuItem Exit;
-
+	
 	// Add a public no-args constructor
 	public EditorController() {
 	}
@@ -314,5 +314,4 @@ public class EditorController {
 		// Display the Stage
 		stage.show();
 	}
-
 }

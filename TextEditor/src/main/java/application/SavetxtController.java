@@ -25,7 +25,7 @@ public class SavetxtController {
     
     @FXML
     private void Save() throws IOException {
-    	// Save as txt
+    	// Save
 		FileWriter writer = new FileWriter("src/main/resources/saved/" + tf.getText().toString() + ".txt");
 		writer.write(EditorController.text);
 		writer.close();
