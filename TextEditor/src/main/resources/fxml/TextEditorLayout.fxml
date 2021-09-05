@@ -18,9 +18,10 @@
             <MenuItem mnemonicParsing="false" onAction="#New" text="New" />
             <MenuItem mnemonicParsing="false" onAction="#Open" text="Open…" />
             <SeparatorMenuItem mnemonicParsing="false" />
-            <MenuItem mnemonicParsing="false" onAction="#Save" text="Save" />
+            <MenuItem mnemonicParsing="false" onAction="#Savetxt" text="Save as txt" />
+            <MenuItem mnemonicParsing="false" onAction="#Savepdf" text="Save as pdf" />
             <SeparatorMenuItem mnemonicParsing="false" />
-            <MenuItem mnemonicParsing="false" onAction="#Exit" text="Quit" />
+            <MenuItem id="Exit" mnemonicParsing="false" onAction="#Exit" text="Exit" />
           </items>
         </Menu>
         <Menu mnemonicParsing="false" text="Edit">
@@ -30,7 +31,6 @@
             <MenuItem mnemonicParsing="false" onAction="#Paste" text="Paste" />
             <SeparatorMenuItem mnemonicParsing="false" />
             <MenuItem mnemonicParsing="false" onAction="#SelectAll" text="Select All" />
-            <MenuItem mnemonicParsing="false" onAction="#UnselectAll" text="Unselect All" />
           </items>
         </Menu>
             <Menu mnemonicParsing="false" text="Search">
@@ -51,9 +51,9 @@
         </Menu>
       </menus>
     </MenuBar>
-      <StackPane VBox.vgrow="ALWAYS">
+      <StackPane fx:id="box" VBox.vgrow="ALWAYS">
          <children>
-            <TextArea prefHeight="200.0" prefWidth="200.0">
+            <TextArea fx:id="TA" prefHeight="200.0" prefWidth="200.0">
                <font>
                   <Font size="13.0" />
                </font></TextArea>

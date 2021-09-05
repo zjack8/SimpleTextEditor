@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-09-05T15:38:55.430">
+<file name="C:\Users\Mathew\Documents\2021 S2\Software Engineering\Assignment 1\TextEditor\src\main\java\application\EditorController.java">
+<violation beginline="53" endline="53" begincolumn="15" endcolumn="26" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'initialize()'.
+</violation>
+<violation beginline="63" endline="63" begincolumn="15" endcolumn="19" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="New" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'New()'.
+</violation>
+<violation beginline="94" endline="94" begincolumn="15" endcolumn="20" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="Open" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Open()'.
+</violation>
+<violation beginline="123" endline="123" begincolumn="15" endcolumn="20" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="Exit" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Exit()'.
+</violation>
+<violation beginline="130" endline="130" begincolumn="15" endcolumn="18" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="TD" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'TD()'.
+</violation>
+<violation beginline="156" endline="156" begincolumn="15" endcolumn="21" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="About" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'About()'.
+</violation>
+<violation beginline="181" endline="181" begincolumn="15" endcolumn="25" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="SelectAll" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'SelectAll()'.
+</violation>
+<violation beginline="188" endline="188" begincolumn="15" endcolumn="19" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="Cut" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Cut()'.
+</violation>
+<violation beginline="195" endline="195" begincolumn="15" endcolumn="20" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="Copy" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Copy()'.
+</violation>
+<violation beginline="201" endline="201" begincolumn="15" endcolumn="21" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="Paste" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Paste()'.
+</violation>
+<violation beginline="208" endline="208" begincolumn="15" endcolumn="23" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="Savetxt" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Savetxt()'.
+</violation>
+<violation beginline="235" endline="235" begincolumn="15" endcolumn="23" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="Savepdf" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Savepdf()'.
+</violation>
+<violation beginline="262" endline="262" begincolumn="15" endcolumn="22" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="Search" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Search()'.
+</violation>
+<violation beginline="293" endline="293" begincolumn="15" endcolumn="21" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="EditorController" method="Print" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Print()'.
+</violation>
+</file>
+<file name="C:\Users\Mathew\Documents\2021 S2\Software Engineering\Assignment 1\TextEditor\src\main\java\application\OpenController.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="37" rule="UnusedImports" ruleset="Best Practices" package="application" class="OpenController" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.io.FileNotFoundException'
+</violation>
+<violation beginline="11" endline="11" begincolumn="1" endcolumn="41" rule="UnusedImports" ruleset="Best Practices" package="application" class="OpenController" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'javafx.collections.ObservableList'
+</violation>
+<violation beginline="35" endline="35" begincolumn="18" endcolumn="29" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="OpenController" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'initialize()'.
+</violation>
+<violation beginline="45" endline="47" begincolumn="39" endcolumn="8" rule="EmptyIfStmt" ruleset="Error Prone" package="application" class="OpenController" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="54" endline="54" begincolumn="18" endcolumn="23" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="OpenController" method="Open" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Open()'.
+</violation>
+<violation beginline="67" endline="69" begincolumn="37" endcolumn="3" rule="EmptyIfStmt" ruleset="Error Prone" package="application" class="OpenController" method="Open" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="C:\Users\Mathew\Documents\2021 S2\Software Engineering\Assignment 1\TextEditor\src\main\java\application\PrintController.java">
+<violation beginline="28" endline="28" begincolumn="18" endcolumn="29" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="PrintController" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'initialize()'.
+</violation>
+<violation beginline="45" endline="45" begincolumn="18" endcolumn="24" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="PrintController" method="Print" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Print()'.
+</violation>
+<violation beginline="47" endline="49" begincolumn="46" endcolumn="6" rule="EmptyIfStmt" ruleset="Error Prone" package="application" class="PrintController" method="Print" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="49" endline="51" begincolumn="51" endcolumn="6" rule="EmptyIfStmt" ruleset="Error Prone" package="application" class="PrintController" method="Print" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#emptyifstmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="C:\Users\Mathew\Documents\2021 S2\Software Engineering\Assignment 1\TextEditor\src\main\java\application\SavepdfController.java">
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="31" rule="UnusedImports" ruleset="Best Practices" package="application" class="SavepdfController" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'com.itextpdf.text.Chunk'
+</violation>
+<violation beginline="32" endline="32" begincolumn="18" endcolumn="29" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="SavepdfController" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'initialize()'.
+</violation>
+<violation beginline="36" endline="36" begincolumn="18" endcolumn="23" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="SavepdfController" method="Save" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Save()'.
+</violation>
+</file>
+<file name="C:\Users\Mathew\Documents\2021 S2\Software Engineering\Assignment 1\TextEditor\src\main\java\application\SavetxtController.java">
+<violation beginline="23" endline="23" begincolumn="18" endcolumn="29" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="SavetxtController" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'initialize()'.
+</violation>
+<violation beginline="27" endline="27" begincolumn="18" endcolumn="23" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="SavetxtController" method="Save" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Save()'.
+</violation>
+</file>
+<file name="C:\Users\Mathew\Documents\2021 S2\Software Engineering\Assignment 1\TextEditor\src\main\java\application\SearchController.java">
+<violation beginline="33" endline="33" begincolumn="15" endcolumn="26" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="SearchController" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'initialize()'.
+</violation>
+<violation beginline="37" endline="37" begincolumn="15" endcolumn="22" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="SearchController" method="Search" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'Search()'.
+</violation>
+</file>
+<file name="C:\Users\Mathew\Documents\2021 S2\Software Engineering\Assignment 1\TextEditor\src\main\java\application\TDController.java">
+<violation beginline="19" endline="19" begincolumn="18" endcolumn="29" rule="UnusedPrivateMethod" ruleset="Best Practices" package="application" class="TDController" method="initialize" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'initialize()'.
+</violation>
+</file>
+</pmd>
